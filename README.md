@@ -1,6 +1,6 @@
 # Hey! 👋
 
-- 🇪🇸 I'm Álvaro, a Full-Stack Architect & Local AI Specialist from A Coruña, Spain.
+- I'm Álvaro, a Full-Stack Architect & Local AI Specialist from A Coruña, Spain.
 - 🚀 I build deterministic systems and local-first AI tools at **Galivelop**.
 - 💬 You can get in touch with me on [LinkedIn](https://www.linkedin.com/in/alvaro-garcia-grana) or check my [Website](https://zeldris.github.io/Portal-Galivelop/).
 
