@@ -1,7 +1,7 @@
 # Hola, soy Álvaro 👋
 
 ### Arquitecto Full-Stack & Especialista en IA Local
-**A Coruña, Galicia** · [Mi web](https://zeldris.github.io/Portal-Galivelop/) · [LinkedIn](https://www.linkedin.com/in/tu-usuario/) · [Discord](https://discord.gg/8vyjW3VrN)
+**A Coruña, Galicia** · [Mi web](https://zeldris.github.io/Portal-Galivelop/) · [LinkedIn](https://www.linkedin.com/in/alvaro-garcia-grana) · [Discord](https://discord.gg/8vyjW3VrN)
 
 ---
 
@@ -50,8 +50,10 @@ Diseño y construyo software donde el motor determinista calcula la lógica y la
 
 ---
 
-## V. Colaboraciones
+## V. Colaboraciones y Contacto
 
 Si tienes un reto técnico, necesitas construir una aplicación full-stack o quieres explorar cómo aplicar la IA local y los workflows deterministas en tu proyecto, siempre estoy abierto a escuchar ideas y ver cómo puedo aportar valor.
 
-📫 **Contacto:** [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+📫 **Escríbeme:**
+- **Desarrollo y colaboraciones:** [alvarogarciagrana@gmail.com](mailto:alvarogarciagrana@gmail.com)
+- **Soporte / Administración toVeriAI:** [web.admin.toveriai@gmail.com](mailto:web.admin.toveriai@gmail.com)
