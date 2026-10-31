@@ -17,9 +17,11 @@ I design and build software where the deterministic engine calculates the logic 
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[Galivelop-Workflow](https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow/)** | Open-source system to prevent context loss in AI agents (Claude Code, etc.). | Bash, Python, Git Hooks |
-| **[Tarkor](https://zeldris.github.io/Portal-Galivelop/proyectos/tarkor/)** | Deterministic RPG with local AI. 9 living factions, 31 classes, 4.2k+ tests. | React, Fastify, PostgreSQL |
-| **[toVeriAI](https://toveriai.com)** | AI news credibility platform. 9-dimension IMI index and 5 languages. | React, Spring Boot, Java |
+| **[Galivelop-workflow](https://github.com/Zeldris/Galivelop-workflow)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow/) | Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of `main`. | Bash, Python, Git Hooks, Agent Skills |
+| **[World-Maker-Fantasy (Tarkor)](https://github.com/Zeldris/World-Maker-Fantasy)** · [info](https://zeldris.github.io/Portal-Galivelop/proyectos/tarkor/) | Deterministic RPG with a local AI narrator. 9 living factions, 31 classes, 4.6k+ tests, plus its own image and voice generation pipelines. | TypeScript, React, Fastify, Prisma, PostgreSQL, Ollama |
+| **[Instalador-WMF-Tarkor](https://github.com/Zeldris/Instalador-WMF-Tarkor)** | Desktop installer for Tarkor (`.exe` / `.AppImage`): no Node, Postgres or Ollama to set up by hand. First-run wizard, hardware detection with AI profiles, bundled Ollama and SQLite. | Tauri v2, Rust, React, SQLite |
+| **[galivelop-image-generator](https://github.com/Zeldris/galivelop-image-generator)** | Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery and a CLI. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. | Python (stdlib only), stable-diffusion.cpp |
+| **[VeriNews_AI (toVeriAI)](https://github.com/raquelccarreraA/VeriNews_AI)** · [web](https://toveriai.com) | AI news credibility platform. IMI index from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), 5 languages. Co-developed final-year project. | React, Spring Boot, Java, MySQL |
 
 ## Things I code with
 
@@ -32,6 +34,8 @@ I design and build software where the deterministic engine calculates the logic 
 ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
@@ -54,6 +58,7 @@ I design and build software where the deterministic engine calculates the logic 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white)
@@ -71,6 +76,7 @@ I design and build software where the deterministic engine calculates the logic 
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
@@ -79,6 +85,7 @@ I design and build software where the deterministic engine calculates the logic 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Qwen](https://img.shields.io/badge/Qwen-6A5ACD?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square)
+![Stable Diffusion](https://img.shields.io/badge/stable--diffusion.cpp-8A2BE2?style=flat-square)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 
 ## My Work Philosophy
