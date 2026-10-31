@@ -21,7 +21,7 @@ I design and build software where the deterministic engine calculates the logic 
 | **[World-Maker-Fantasy (Tarkor)](https://github.com/Zeldris/World-Maker-Fantasy)** · [info](https://zeldris.github.io/Portal-Galivelop/proyectos/tarkor/) | Deterministic RPG with a local AI narrator. 9 living factions, 31 classes, 4.6k+ tests, plus its own image and voice generation pipelines. | TypeScript, React, Fastify, Prisma, PostgreSQL, Ollama |
 | **[Instalador-WMF-Tarkor](https://github.com/Zeldris/Instalador-WMF-Tarkor)** | Desktop installer for Tarkor (`.exe` / `.AppImage`): no Node, Postgres or Ollama to set up by hand. First-run wizard, hardware detection with AI profiles, bundled Ollama and SQLite. | Tauri v2, Rust, React, SQLite |
 | **[galivelop-image-generator](https://github.com/Zeldris/galivelop-image-generator)** | Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery and a CLI. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. | Python (stdlib only), stable-diffusion.cpp |
-| **[VeriNews_AI (toVeriAI)](https://github.com/raquelccarreraA/VeriNews_AI)** · [web](https://toveriai.com) | AI news credibility platform. IMI index from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), 5 languages. Co-developed final-year project. | React, Spring Boot, Java, MySQL |
+| **[toVeriAI](https://toveriai.com)** | AI news credibility platform. IMI index from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), 5 languages. Co-developed final-year project. | React, Spring Boot, Java, MySQL |
 
 ## Things I code with
 
