@@ -1,18 +1,25 @@
-![Galivelop](https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/marca/galivelop-social.png)
+<p align="center">
+  <a href="https://zeldris.github.io/Portal-Galivelop/en/"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/marca/gv-logo.svg" alt="Galivelop" width="88" height="88"></a>
+</p>
 
-# Hey! 👋
+<h1 align="center">Hey! I'm Álvaro 👋</h1>
 
-- I'm Álvaro, a Software Architect & AI Systems Engineer from A Coruña, Spain, specializing in local-first infrastructure and deterministic systems.
+<p align="center">
+  <strong>Software Architect & AI Systems Engineer</strong><br>
+  Local-first infrastructure and deterministic systems · A Coruña, Spain
+</p>
+
+<p align="center">
+  <a href="https://zeldris.github.io/Portal-Galivelop/en/"><img src="https://img.shields.io/badge/Galivelop_Portal-0E9A93?style=for-the-badge&logo=githubpages&logoColor=white" alt="Galivelop portal"></a>
+  <a href="https://www.linkedin.com/in/%C3%A1lvaro-garc%C3%ADa-gra%C3%B1a-b4538117b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.reddit.com/user/Alvaro-Garcia-Grana"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a>
+  <a href="https://discord.gg/HWakpsAv3V"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://www.getmanfred.com/perfil/d418e5e6-2532-4126-b7a1-6a721c1b1a39"><img src="https://img.shields.io/badge/Manfred-1F2328?style=for-the-badge" alt="Manfred"></a>
+</p>
+
 - 💼 Full-stack developer since 2017 and, since 2023, senior developer at Orienteed.
-- 🚀 I founded **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
-- 💬 Find me on [LinkedIn](https://www.linkedin.com/in/%C3%A1lvaro-garc%C3%ADa-gra%C3%B1a-b4538117b), [Reddit](https://www.reddit.com/user/Alvaro-Garcia-Grana), [Manfred](https://www.getmanfred.com/perfil/d418e5e6-2532-4126-b7a1-6a721c1b1a39) or the [Galivelop Discord](https://discord.gg/HWakpsAv3V).
-
-[![Portal](https://img.shields.io/badge/Galivelop_Portal-0E9A93?style=for-the-badge&logo=githubpages&logoColor=white)](https://zeldris.github.io/Portal-Galivelop/en/)
-[![Profile](https://img.shields.io/badge/My_profile-555555?style=for-the-badge)](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana)
-[![News](https://img.shields.io/badge/What's_new-555555?style=for-the-badge)](https://zeldris.github.io/Portal-Galivelop/en/novedades)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%C3%A1lvaro-garc%C3%ADa-gra%C3%B1a-b4538117b)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/Alvaro-Garcia-Grana)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/HWakpsAv3V)
+- 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
+- 🧭 See [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana) and [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) on the portal.
 
 ## What I do
 
@@ -27,21 +34,52 @@ I design and build software where the deterministic engine calculates the logic 
 
 Every project has its own page on the [Galivelop portal](https://zeldris.github.io/Portal-Galivelop/en/): what it is, how it works, gallery, tech sheet and roadmap.
 
-| Project | Description | Status | Stack |
-| :--- | :--- | :--- | :--- |
-| **[Tarkor](https://github.com/Zeldris/World-Maker-Fantasy)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor) | Narrative text RPG with a local AI as game master: a deterministic engine where the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 4.8k+ tests, plus its own image and voice generation pipelines. | 🟡 Alpha | TypeScript, React, Fastify, Prisma, PostgreSQL, Ollama |
-| **[Instalador-WMF-Tarkor](https://github.com/Zeldris/Instalador-WMF-Tarkor)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor) | Desktop installer for Tarkor (`.exe` / `.AppImage`): no Node, Postgres or Ollama to set up by hand. First-run wizard, hardware detection with AI profiles, bundled Ollama and SQLite. | 🟡 In development | Tauri v2, Rust, React, SQLite |
-| **[Galivelop-workflow](https://github.com/Zeldris/Galivelop-workflow)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow) | Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of `main`. | 🟡 v0.4.3 | Bash, Python, Git Hooks, Agent Skills |
-| **[Galivelop IG](https://github.com/Zeldris/galivelop-image-generator)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator) | Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. | 🟡 v0.4.1 | Python (stdlib only), stable-diffusion.cpp |
-| **[toVeriAI](https://www.toveriai.com)** · [info](https://zeldris.github.io/Portal-Galivelop/en/proyectos/toveriai) | AI news credibility platform. IMI index from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), 5 languages. Co-developed final-year project. | 🟢 Live | React, Spring Boot, Java, MySQL |
-| **[Portal-Galivelop](https://github.com/Zeldris/Portal-Galivelop)** · [visit](https://zeldris.github.io/Portal-Galivelop/en/) | The Galivelop workshop portal: every project as it really is, with its progress and pending work, in Spanish, Galician and English. | 🟢 Live | React, TypeScript, Vite, GitHub Pages |
+<table>
+  <tr>
+    <td width="150"><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="140" alt=""></a></td>
+    <td>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha<br>
+      Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 4.8k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
+      <sub>TypeScript · React · Fastify · Prisma · PostgreSQL · Ollama · Tauri v2 · Rust · SQLite</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Project page</a> · <a href="https://github.com/Zeldris/World-Maker-Fantasy">Game code</a> · <a href="https://github.com/Zeldris/Instalador-WMF-Tarkor">Installer code</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="150"><a href="https://www.toveriai.com"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/toveriai/portada-mini.webp" width="140" alt=""></a></td>
+    <td>
+      <strong><a href="https://www.toveriai.com">toVeriAI</a></strong> · 🟢 Live<br>
+      AI news credibility platform. It scores news, links and screenshots with the IMI index, from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), and explains what fails and where. 5 languages. Co-developed final-year project.<br>
+      <sub>React · Spring Boot · Java · MySQL</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/toveriai">Project page</a> · <a href="https://www.toveriai.com">toveriai.com</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
+    <td>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.4.3<br>
+      Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>.<br>
+      <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="150"><a href="https://github.com/Zeldris/galivelop-image-generator"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="140" alt=""></a></td>
+    <td>
+      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.4.1<br>
+      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine.<br>
+      <sub>Python (stdlib only) · stable-diffusion.cpp</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator">Project page</a> · <a href="https://github.com/Zeldris/galivelop-image-generator">Code</a></sub>
+    </td>
+  </tr>
+</table>
 
-**Coming soon** (see my [profile on the portal](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana)):
+**Also**
 
-- **Galivelop Voice Generator:** voices generated with local AI for the workshop's projects.
-- **Galivelop Developer:** a local AI development agent that works without relying on the cloud.
+- **[Portal-Galivelop](https://github.com/Zeldris/Portal-Galivelop):** the workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
+- **Galivelop Voice Generator** (coming soon): voices generated with local AI for the workshop's projects.
+- **Galivelop Developer** (coming soon): a local AI development agent that works without relying on the cloud.
 
-Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project. Get in touch by email.
+Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
 
 ## Things I code with
 
@@ -116,8 +154,6 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 2. **Fault-Tolerant Context:** State lives in files, not in the agent's memory. Handoffs between sessions are lossless.
 3. **Measured Optimization:** Before cutting tokens or performance, I measure where the resource is going. Savings that worsen the product aren't savings.
 
----
-
 ## Let's work together
 
 If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value.
@@ -128,6 +164,7 @@ Galivelop grows with the people who join it. No prior experience needed, just th
 - 💡 [Propose a project](https://zeldris.github.io/Portal-Galivelop/en/participa/proponer) that feels too big to build alone.
 - 💬 Join the community on [Discord](https://discord.gg/HWakpsAv3V).
 
-📫 **Contact:**
+📫 **Contact**
+
 - **Development & Collaborations:** [alvarogarciagrana@gmail.com](mailto:alvarogarciagrana@gmail.com)
 - **toVeriAI Support:** [web.admin.toveriai@gmail.com](mailto:web.admin.toveriai@gmail.com)
