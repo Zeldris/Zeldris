@@ -1,8 +1,11 @@
 <p align="center">
-  <a href="https://zeldris.github.io/Portal-Galivelop/en/"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/marca/gv-logo.svg" alt="Galivelop" width="88" height="88"></a>
+  <a href="https://zeldris.github.io/Portal-Galivelop/en/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="Hey! I'm Álvaro García Graña — local-first, deterministic, auditable software" width="100%">
+  </picture>
+  </a>
 </p>
-
-<h1 align="center">Hey! I'm Álvaro 👋</h1>
 
 <p align="center">
   <strong>Software Architect & AI Systems Engineer</strong><br>
@@ -25,10 +28,39 @@
 
 I design and build software where the deterministic engine calculates the logic and local AI handles the experience. I focus on creating robust, private, and auditable systems, avoiding "black boxes" and cloud AI hallucinations.
 
-- **Custom Full-Stack Development:** From database to UI. Scalable backends with Fastify (Node.js) or Spring Boot (Java).
-- **Local AI Architecture:** LLM implementation on consumer hardware (optimized for Steam Deck and modest PCs). Subagent orchestration and persistent context management.
-- **Deterministic Systems & Simulation:** Game engines and tools where the world state is predictable (Event Sourcing, "Book of Deeds").
-- **Agent Workflows:** Methodologies (based on AGENTS.md and Git hooks) for teams using AI to avoid losing context between sessions.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/approach-dark.svg">
+    <img src="assets/approach-light.svg" alt="Input goes to a deterministic engine that calculates the logic, then to a local AI that handles the experience" width="100%">
+  </picture>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/icon-fullstack.svg" width="36" height="36" alt=""><br>
+      <strong>Custom Full-Stack Development</strong><br>
+      From database to UI. Scalable backends with Fastify (Node.js) or Spring Boot (Java).
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/icon-local-ai.svg" width="36" height="36" alt=""><br>
+      <strong>Local AI Architecture</strong><br>
+      LLM implementation on consumer hardware (optimized for Steam Deck and modest PCs). Subagent orchestration and persistent context management.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/icon-deterministic.svg" width="36" height="36" alt=""><br>
+      <strong>Deterministic Systems & Simulation</strong><br>
+      Game engines and tools where the world state is predictable (Event Sourcing, "Book of Deeds").
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/icon-agents.svg" width="36" height="36" alt=""><br>
+      <strong>Agent Workflows</strong><br>
+      Methodologies (based on AGENTS.md and Git hooks) for teams using AI to avoid losing context between sessions.
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
@@ -83,76 +115,87 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 
 ## Things I code with
 
-**Frontend & Web**
+**Day to day**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Stable Diffusion](https://img.shields.io/badge/stable--diffusion.cpp-8A2BE2?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square)
+
+<details>
+<summary><strong>Also worked with</strong> (26 more)</summary>
+<br>
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-
-**Backend & Frameworks**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-
-**Databases & Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-
-**DevOps & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-
-**Local AI & Others**
-
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Qwen](https://img.shields.io/badge/Qwen-6A5ACD?style=flat-square)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square)
-![Stable Diffusion](https://img.shields.io/badge/stable--diffusion.cpp-8A2BE2?style=flat-square)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+
+</details>
 
 ## My Work Philosophy
 
 > *"If it isn't pushed, it doesn't exist."*
 
-1. **Automated Quality:** Git hooks block unreviewed code or failing tests. Nothing reaches `main` without passing the filter.
-2. **Fault-Tolerant Context:** State lives in files, not in the agent's memory. Handoffs between sessions are lossless.
-3. **Measured Optimization:** Before cutting tokens or performance, I measure where the resource is going. Savings that worsen the product aren't savings.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>01</h3>
+      <strong>Automated Quality</strong><br>
+      Git hooks block unreviewed code or failing tests. Nothing reaches <code>main</code> without passing the filter.
+    </td>
+    <td width="33%" valign="top">
+      <h3>02</h3>
+      <strong>Fault-Tolerant Context</strong><br>
+      State lives in files, not in the agent's memory. Handoffs between sessions are lossless.
+    </td>
+    <td width="33%" valign="top">
+      <h3>03</h3>
+      <strong>Measured Optimization</strong><br>
+      Before cutting tokens or performance, I measure where the resource is going. Savings that worsen the product aren't savings.
+    </td>
+  </tr>
+</table>
 
 ## Let's work together
 

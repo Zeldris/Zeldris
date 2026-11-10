@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Álvaro García Graña — local-first, deterministic, auditable">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f9fd"/><stop offset="1" stop-color="#eaf4fb"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0083C1"/><stop offset="1" stop-color="#0E9A93"/></linearGradient>
+<linearGradient id="logo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2BB3EA"/><stop offset="1" stop-color="#0083C1"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#0083C1" opacity=".35"/></pattern>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset=".35" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="m"><rect width="1000" height="260" fill="url(#fade)"/></mask>
+<clipPath id="r"><rect width="1000" height="260" rx="22"/></clipPath>
+</defs>
+<style>
+.flow{fill:none;stroke:url(#g);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:6 10;animation:d 2.8s linear infinite}
+.cur{animation:b 1.1s steps(1) infinite}
+@keyframes d{to{stroke-dashoffset:-32}}
+@keyframes b{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#r)">
+<rect width="1000" height="260" fill="url(#bg)"/>
+<rect width="1000" height="260" fill="url(#dots)" mask="url(#m)"/>
+<g opacity=".95"><path class="flow" style="animation-delay:-0.0s" d="M700 70 L790 120"/><path class="flow" style="animation-delay:-0.7s" d="M790 120 L730 190"/><path class="flow" style="animation-delay:-1.4s" d="M790 120 L860 60"/><path class="flow" style="animation-delay:-2.1s" d="M790 120 L900 160"/><path class="flow" style="animation-delay:-2.8s" d="M900 160 L840 215"/><path class="flow" style="animation-delay:-3.5s" d="M860 60 L950 95"/><path class="flow" style="animation-delay:-4.2s" d="M900 160 L950 95"/><path class="flow" style="animation-delay:-4.9s" d="M730 190 L840 215"/><circle cx="700" cy="70" r="6" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="790" cy="120" r="9" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="730" cy="190" r="6" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="860" cy="60" r="6" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="900" cy="160" r="9" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="840" cy="215" r="6" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/><circle cx="950" cy="95" r="6" fill="#eaf4fb" stroke="url(#g)" stroke-width="3"/></g>
+<rect y="254" width="1000" height="6" fill="url(#g)"/>
+</g>
+<rect x=".5" y=".5" width="999" height="259" rx="22" fill="none" stroke="#cfe0ec"/>
+<g transform="translate(56 54) scale(.6875)">
+<rect width="128" height="128" rx="30" fill="url(#logo)"/>
+<g fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><path d="M55.4 45.6 A24 24 0 1 0 64 64"/><path d="M50 64 H80"/><path d="M71 40 L89.5 88 L108 40"/></g>
+</g>
+<text x="168" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#14202b">Álvaro García Graña</text>
+<text x="170" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="23" fill="#526272">Founder of Galivelop</text>
+<text x="56" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="24" fill="#0083C1">$ <tspan fill="#14202b">local-first · deterministic · auditable</tspan><tspan class="cur" fill="#0E9A93"> ▍</tspan></text>
+</svg>

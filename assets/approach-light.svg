@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-label="Input goes to a deterministic engine that calculates the logic, then to a local AI that handles the experience. Private, auditable, no black boxes.">
+<style>
+.flow{fill:none;stroke:#0083C1;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:6 9;animation:d 1.6s linear infinite}
+@keyframes d{to{stroke-dashoffset:-30}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="20" y="40" width="170" height="150" rx="16" fill="#ffffff" stroke="#526272" stroke-width="2"/>
+<text x="105.0" y="90" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#14202b">Input</text>
+<text x="105.0" y="122" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" fill="#526272">what happens</text>
+<text x="105.0" y="160" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#526272">action · event</text>
+<path class="flow" d="M198 115 H240"/><path d="M238 107 L250 115 L238 123" fill="none" stroke="#0083C1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="258" y="40" width="330" height="150" rx="16" fill="#ffffff" stroke="#0083C1" stroke-width="2"/>
+<text x="423.0" y="90" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#14202b">Deterministic engine</text>
+<text x="423.0" y="122" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" fill="#526272">calculates the logic</text>
+<text x="423.0" y="160" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#0083C1">Event Sourcing · Book of Deeds</text>
+<path class="flow" d="M596 115 H638"/><path d="M636 107 L648 115 L636 123" fill="none" stroke="#0083C1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="656" y="40" width="324" height="150" rx="16" fill="#ffffff" stroke="#0E9A93" stroke-width="2"/>
+<text x="818.0" y="90" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#14202b">Local AI</text>
+<text x="818.0" y="122" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" fill="#526272">handles the experience</text>
+<text x="818.0" y="160" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#0E9A93">runs on consumer hardware</text>
+<text x="500" y="230" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" fill="#526272">private · auditable · no black boxes</text>
+</svg>
