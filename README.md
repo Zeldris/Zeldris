@@ -56,7 +56,7 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.4.3<br>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.5.1<br>
       Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>.<br>
       <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
