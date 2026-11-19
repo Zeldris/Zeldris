@@ -70,7 +70,7 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha<br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha · milestone 0.3 “Deep kingdom”<br>
       Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 4.8k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
       <sub>TypeScript · React · Fastify · Prisma · PostgreSQL · Ollama · Tauri v2 · Rust · SQLite</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Project page</a> · <a href="https://github.com/Zeldris/World-Maker-Fantasy">Game code</a> · <a href="https://github.com/Zeldris/Instalador-WMF-Tarkor">Installer code</a></sub>
@@ -80,16 +80,16 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
     <td width="150"><a href="https://www.toveriai.com"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/toveriai/portada-mini.webp" width="140" alt=""></a></td>
     <td>
       <strong><a href="https://www.toveriai.com">toVeriAI</a></strong> · 🟢 Live<br>
-      AI news credibility platform. It scores news, links and screenshots with the IMI index, from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), and explains what fails and where. 5 languages. Co-developed final-year project.<br>
-      <sub>React · Spring Boot · Java · MySQL</sub><br>
+      AI news credibility platform. It scores news and links with the IMI index, from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), and explains what fails and where. Screenshot analysis is paused for now. 5 languages. Co-developed final-year project.<br>
+      <sub>React · Spring Boot · Java · MySQL · Ollama</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/toveriai">Project page</a> · <a href="https://www.toveriai.com">toveriai.com</a></sub>
     </td>
   </tr>
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.5.1<br>
-      Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>.<br>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.8.0<br>
+      Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Ships 13 skills of its own plus 15 by Matt Pocock.<br>
       <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
     </td>
@@ -97,9 +97,9 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/galivelop-image-generator"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.4.1<br>
-      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine.<br>
-      <sub>Python (stdlib only) · stable-diffusion.cpp</sub><br>
+      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.6.0<br>
+      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Each project describes its brand as a data sheet, and the service checks every piece against it. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine.<br>
+      <sub>Python (stdlib only) · stable-diffusion.cpp · FLUX.2 · Vulkan</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator">Project page</a> · <a href="https://github.com/Zeldris/galivelop-image-generator">Code</a></sub>
     </td>
   </tr>
@@ -108,8 +108,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
 **Also**
 
 - **[Portal-Galivelop](https://github.com/Zeldris/Portal-Galivelop):** the workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
-- **Galivelop Voice Generator** (coming soon): voices generated with local AI for the workshop's projects.
-- **Galivelop Developer** (coming soon): a local AI development agent that works without relying on the cloud.
+- **Galivelop Voice Generator** (coming soon · 2 of 8 phases done): voices generated with local AI for the workshop's projects.
+- **Galivelop Developer** (coming soon · 1 of 6 phases done): a local AI development agent that works without relying on the cloud.
 
 Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
 
