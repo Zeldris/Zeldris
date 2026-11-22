@@ -71,7 +71,7 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
     <td width="150"><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="140" alt=""></a></td>
     <td>
       <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha · milestone 0.3 “Deep kingdom”<br>
-      Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 4.8k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
+      Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 5k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
       <sub>TypeScript · React · Fastify · Prisma · PostgreSQL · Ollama · Tauri v2 · Rust · SQLite</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Project page</a> · <a href="https://github.com/Zeldris/World-Maker-Fantasy">Game code</a> · <a href="https://github.com/Zeldris/Instalador-WMF-Tarkor">Installer code</a></sub>
     </td>
@@ -88,8 +88,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.8.0<br>
-      Open-source workflow for AI coding agents (Claude Code first): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Ships 13 skills of its own plus 15 by Matt Pocock.<br>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.8.2<br>
+      Open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Ships 13 skills of its own plus 15 by Matt Pocock.<br>
       <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
     </td>
