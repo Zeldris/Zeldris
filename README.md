@@ -88,8 +88,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.8.2<br>
-      Open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Ships 13 skills of its own plus 15 by Matt Pocock.<br>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.9.0 “Front” · next: 0.10 “Stable”<br>
+      Open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Configurable languages, install profiles per person and per role, and interface tests with screenshots and accessibility checks. Ships 14 skills of its own plus 15 by Matt Pocock, with 3.9k+ automated tests.<br>
       <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
     </td>
@@ -97,8 +97,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td width="150"><a href="https://github.com/Zeldris/galivelop-image-generator"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="140" alt=""></a></td>
     <td>
-      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.6.0<br>
-      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Each project describes its brand as a data sheet, and the service checks every piece against it. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine.<br>
+      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.6.0 · next: brand piece<br>
+      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Each project describes its brand as a data sheet, and the service checks every piece against it. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. 1.5k+ automated tests.<br>
       <sub>Python (stdlib only) · stable-diffusion.cpp · FLUX.2 · Vulkan</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator">Project page</a> · <a href="https://github.com/Zeldris/galivelop-image-generator">Code</a></sub>
     </td>
@@ -109,7 +109,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
 
 - **[Portal-Galivelop](https://github.com/Zeldris/Portal-Galivelop):** the workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
 - **Galivelop Voice Generator** (coming soon · 2 of 8 phases done): voices generated with local AI for the workshop's projects.
-- **Galivelop Developer** (coming soon · 1 of 6 phases done): a local AI development agent that works without relying on the cloud.
+- **[Galivelop Developer](https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer)** (aka GalivelopCode · coming soon): connects the workshop's workflow to AI agents that run on your own computer. They carry the project's work; you decide what goes in. No mandatory cloud and no pay-per-use.
+- **[Galivelop Evaluator](https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator)** (aka GVE · coming soon): measures whether a change to your AI system (a prompt, a model, the way it searches) really improves it, with repeatable before-and-after tests that show what got better and what got worse.
 
 Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
 
