@@ -166,6 +166,73 @@ def diagrama(t, fuentes):
 '''
 
 
+# ---------------------------------------------------------------- versiones para móvil
+# En el móvil el README mide ~360 px: las versiones de 1000 px se quedan en un tercio y los datos en mono
+# serían ilegibles. Estas miden 600 px de ancho (escala ~0,6) y apilan el contenido.
+
+B_LEMA_MOVIL = ['Local-first, deterministic,', 'auditable software.']
+
+
+def banner_movil(t, portal, fuentes):
+    W, H, BY = 600, 412, 292
+    css = estilo(fuentes, {'T': B_NOMBRE, 'S': ''.join(B_LEMA_MOVIL), 'M': B_ANTE + ''.join(B_DATOS)})
+    marco = chaflan(0.5, 0.5, W - 1, H - 1, 28)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="Álvaro García Graña, founder of Galivelop: local-first, deterministic, auditable software">
+{css}
+<defs><clipPath id="marco"><path d="{marco}"/></clipPath></defs>
+<g clip-path="url(#marco)">
+<rect width="{W}" height="{H}" fill="{t['papel']}"/>
+{reticula(t, W, BY)}
+<rect y="{BY}" width="{W}" height="{H - BY}" fill="{t['hondo']}"/>
+<svg x="0" y="{BY}" width="{W}" height="{H - BY}" viewBox="1300 400 1000 200" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="#fff" stroke-linecap="round">{isobatas(portal)}</g></svg>
+</g>
+<path d="{marco}" fill="none" stroke="{t['filete']}" stroke-width="1"/>
+<g transform="translate(32 32) scale(0.5)">{LOGO}</g>
+<text x="112" y="62" class="m" font-size="15" letter-spacing="0.6" fill="{t['tinta2']}">{B_ANTE.split(' · ')[0]}</text>
+<text x="112" y="86" class="m" font-size="15" letter-spacing="0.6" fill="{t['tinta2']}">{B_ANTE.split(' · ')[1]}</text>
+<rect x="112" y="100" width="36" height="2" fill="{t['alga']}"/>
+<text x="30" y="186" class="t" font-size="60" letter-spacing="0.4" fill="{t['tinta']}">{B_NOMBRE}</text>
+<text x="32" y="230" class="s" font-size="26" fill="{t['tinta2']}">{B_LEMA_MOVIL[0]}</text>
+<text x="32" y="264" class="s" font-size="26" fill="{t['tinta2']}">{B_LEMA_MOVIL[1]}</text>
+<g class="m" font-size="17" letter-spacing="0.8" fill="#ffffff">
+<text x="32" y="{BY + 42}">{B_DATOS[0]}</text>
+<text x="32" y="{BY + 68}" fill-opacity="0.8">{B_DATOS[1]}</text>
+<text x="{W - 32}" y="{H - 24}" text-anchor="end" fill-opacity="0.8">{B_DATOS[2]}</text>
+</g>
+</svg>
+'''
+
+
+def diagrama_movil(t, fuentes):
+    W, x, w, h, hueco, y0 = 600, 32, 536, 132, 44, 32
+    css = estilo(fuentes, {'T': ''.join(c[0] for c in CAJAS), 'S': ''.join(c[1] for c in CAJAS),
+                           'M': ''.join(c[2] for c in CAJAS) + D_PIE})
+    partes, cx = [], x + w / 2
+    for i, (titulo, frase, dato, cat) in enumerate(CAJAS):
+        y = y0 + i * (h + hueco)
+        partes.append(f'<path d="{chaflan(x + .5, y + .5, w, h, 14)}" fill="{t["superficie"]}" stroke="{t["filete"]}"/>')
+        partes.append(f'<rect x="{x + .5}" y="{y + .5}" width="{w - 14}" height="4" fill="{t[cat]}"/>')
+        partes.append(f'<text x="{cx}" y="{y + 48}" text-anchor="middle" class="t" font-size="34" letter-spacing="0.4" fill="{t["tinta"]}">{titulo}</text>')
+        partes.append(f'<text x="{cx}" y="{y + 80}" text-anchor="middle" class="s" font-size="22" fill="{t["tinta2"]}">{frase}</text>')
+        partes.append(f'<path d="M{x + 32} {y + 96.5}H{x + w - 32}" stroke="{t["filete"]}" stroke-dasharray="4 4"/>')
+        partes.append(f'<text x="{cx}" y="{y + 120}" text-anchor="middle" class="m" font-size="16" letter-spacing="0.6" fill="{t["enlace"] if cat != "tinta2" else t["tinta2"]}">{dato.upper()}</text>')
+        if i < len(CAJAS) - 1:
+            a, b = y + h + 8, y + h + hueco - 8
+            partes.append(f'<path d="M{cx} {a}V{b - 4}" stroke="{t["celeste"]}" stroke-width="2.5"/>')
+            partes.append(f'<path d="M{cx - 7} {b - 12}L{cx} {b}L{cx + 7} {b - 12}Z" fill="{t["celeste"]}"/>')
+    yp = y0 + 3 * h + 2 * hueco
+    H = yp + 92
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="Input goes to a deterministic engine that calculates the logic, then to a local AI that handles the experience. Private, auditable, no black boxes.">
+{css}
+<rect width="{W}" height="{H}" fill="{t['papel']}"/>
+{reticula(t, W, H)}
+{''.join(partes)}
+<rect x="{W / 2 - 18}" y="{yp + 32}" width="36" height="2" fill="{t['alga']}"/>
+<text x="{W / 2}" y="{yp + 62}" text-anchor="middle" class="m" font-size="17" letter-spacing="1" fill="{t['tinta2']}">{D_PIE}</text>
+</svg>
+'''
+
+
 # ---------------------------------------------------------------- iconos y separador
 
 ICONOS = {  # nombre en assets: icono de src/assets/iconos/ del portal
@@ -196,6 +263,8 @@ def main():
     for tema, t in TEMAS.items():
         (SALIDA / f'banner-{tema}.svg').write_text(banner(t, portal, fuentes))
         (SALIDA / f'approach-{tema}.svg').write_text(diagrama(t, fuentes))
+        (SALIDA / f'banner-mobile-{tema}.svg').write_text(banner_movil(t, portal, fuentes))
+        (SALIDA / f'approach-mobile-{tema}.svg').write_text(diagrama_movil(t, fuentes))
     iconos(portal)
     separador(portal)
 

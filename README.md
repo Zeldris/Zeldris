@@ -1,6 +1,8 @@
 <p align="center">
   <a href="https://zeldris.github.io/Portal-Galivelop/en/">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/banner-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <img src="assets/banner-light.svg" alt="Hey! I'm Álvaro García Graña — local-first, deterministic, auditable software" width="100%">
   </picture>
@@ -30,6 +32,8 @@ I design and build software where the deterministic engine calculates the logic 
 
 <p align="center">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/approach-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/approach-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/approach-dark.svg">
     <img src="assets/approach-light.svg" alt="Input goes to a deterministic engine that calculates the logic, then to a local AI that handles the experience" width="100%">
   </picture>
@@ -75,8 +79,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
 
 <table>
   <tr>
-    <td width="150"><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="140" alt=""></a></td>
     <td>
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="128" alt=""></a>
       <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha · milestone 0.3 “Deep kingdom”<br>
       Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 5k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
       <sub>TypeScript · React · Fastify · Prisma · PostgreSQL · Ollama · Tauri v2 · Rust · SQLite</sub><br>
@@ -84,8 +88,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
     </td>
   </tr>
   <tr>
-    <td width="150"><a href="https://www.toveriai.com"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/toveriai/portada-mini.webp" width="140" alt=""></a></td>
     <td>
+      <a href="https://www.toveriai.com"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/toveriai/portada-mini.webp" width="128" alt=""></a>
       <strong><a href="https://www.toveriai.com">toVeriAI</a></strong> · 🟢 Live<br>
       AI news credibility platform. It scores news and links with the IMI index, from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), and explains what fails and where. Screenshot analysis is paused for now. 5 languages. Co-developed final-year project.<br>
       <sub>React · Spring Boot · Java · MySQL · Ollama</sub><br>
@@ -93,8 +97,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
     </td>
   </tr>
   <tr>
-    <td width="150"><a href="https://github.com/Zeldris/Galivelop-workflow"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="140" alt=""></a></td>
     <td>
+      <a href="https://github.com/Zeldris/Galivelop-workflow"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="128" alt=""></a>
       <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.9.0 “Front” · next: 0.10 “Stable”<br>
       Open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Configurable languages, install profiles per person and per role, and interface tests with screenshots and accessibility checks. Ships 14 skills of its own plus 15 by Matt Pocock, with 3.9k+ automated tests.<br>
       <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
@@ -102,8 +106,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
     </td>
   </tr>
   <tr>
-    <td width="150"><a href="https://github.com/Zeldris/galivelop-image-generator"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="140" alt=""></a></td>
     <td>
+      <a href="https://github.com/Zeldris/galivelop-image-generator"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="128" alt=""></a>
       <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.6.0 · next: brand piece<br>
       Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Each project describes its brand as a data sheet, and the service checks every piece against it. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. 1.5k+ automated tests.<br>
       <sub>Python (stdlib only) · stable-diffusion.cpp · FLUX.2 · Vulkan</sub><br>
