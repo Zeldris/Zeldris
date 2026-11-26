@@ -38,29 +38,36 @@ I design and build software where the deterministic engine calculates the logic 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/icon-fullstack.svg" width="36" height="36" alt=""><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-fullstack-dark.svg"><img src="assets/icon-fullstack-light.svg" width="36" height="36" alt=""></picture><br>
       <strong>Custom Full-Stack Development</strong><br>
       From database to UI. Scalable backends with Fastify (Node.js) or Spring Boot (Java).
     </td>
     <td width="50%" valign="top">
-      <img src="assets/icon-local-ai.svg" width="36" height="36" alt=""><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-local-ai-dark.svg"><img src="assets/icon-local-ai-light.svg" width="36" height="36" alt=""></picture><br>
       <strong>Local AI Architecture</strong><br>
       LLM implementation on consumer hardware (optimized for Steam Deck and modest PCs). Subagent orchestration and persistent context management.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/icon-deterministic.svg" width="36" height="36" alt=""><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-deterministic-dark.svg"><img src="assets/icon-deterministic-light.svg" width="36" height="36" alt=""></picture><br>
       <strong>Deterministic Systems & Simulation</strong><br>
       Game engines and tools where the world state is predictable (Event Sourcing, "Book of Deeds").
     </td>
     <td width="50%" valign="top">
-      <img src="assets/icon-agents.svg" width="36" height="36" alt=""><br>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icon-agents-dark.svg"><img src="assets/icon-agents-light.svg" width="36" height="36" alt=""></picture><br>
       <strong>Agent Workflows</strong><br>
       Methodologies (based on AGENTS.md and Git hooks) for teams using AI to avoid losing context between sessions.
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 ## Featured Projects
 
@@ -105,12 +112,34 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   </tr>
 </table>
 
-**Also**
+**Also in the workshop**
 
-- **[Portal-Galivelop](https://github.com/Zeldris/Portal-Galivelop):** the workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
-- **Galivelop Voice Generator** (coming soon · 2 of 8 phases done): voices generated with local AI for the workshop's projects.
-- **[Galivelop Developer](https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer)** (aka GalivelopCode · coming soon): connects the workshop's workflow to AI agents that run on your own computer. They carry the project's work; you decide what goes in. No mandatory cloud and no pay-per-use.
-- **[Galivelop Evaluator](https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator)** (aka GVE · coming soon): measures whether a change to your AI system (a prompt, a model, the way it searches) really improves it, with repeatable before-and-after tests that show what got better and what got worse.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Zeldris/Portal-Galivelop"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/marca/galivelop-portal-en.jpg" width="100%" alt=""></a><br>
+      <strong><a href="https://github.com/Zeldris/Portal-Galivelop">Portal-Galivelop</a></strong> · 🟢 Live<br>
+      The workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-voice-generator/proxima.webp" width="100%" alt=""></a><br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/">Galivelop Voice Generator</a></strong> · ⚪ Coming soon · 2 of 8 phases<br>
+      Voices generated with local AI for the workshop’s projects.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-developer/portada-mini.webp" width="100%" alt=""></a><br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer">Galivelop Developer</a></strong> · ⚪ Coming soon<br>
+      Aka GalivelopCode. Connects the workshop’s workflow to AI agents that run on your own computer. They carry the project’s work; you decide what goes in. No mandatory cloud and no pay-per-use.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-oscuro-mini.webp"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-mini.webp" width="100%" alt=""></picture></a><br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator">Galivelop Evaluator</a></strong> · ⚪ Coming soon<br>
+      Aka GVE. Measures whether a change to your AI system (a prompt, a model, the way it searches) really improves it, with repeatable before-and-after tests that show what got better and what got worse.
+    </td>
+  </tr>
+</table>
 
 Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
 
@@ -197,6 +226,13 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 ## Let's work together
 
