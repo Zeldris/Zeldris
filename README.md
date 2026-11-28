@@ -152,16 +152,6 @@ Projects already under way that don’t have their own page yet.
 - **Model Atlas** · 2 of 5 phases · next: the schemas and the fit<br>
   Which model fits on which machine.
 
-## From the workshop diary
-
-- **[Rails, not just instructions](https://zeldris.github.io/Portal-Galivelop/en/diario/railes-no-solo-instrucciones)**: we work with AIs that write code. Asking them nicely is not enough: what matters is what they cannot skip.
-- **[A games console as our yardstick](https://zeldris.github.io/Portal-Galivelop/en/diario/una-consola-como-vara-de-medir)**: our reference machine for AI is not a server but a Steam Deck. If something works there, it works on almost any computer.
-- **[What the generator painted before it got there](https://zeldris.github.io/Portal-Galivelop/en/diario/lo-que-el-generador-pinto-antes-de-acertar)**: eight test rounds before trusting our image generator, and what they taught us about how to ask.
-- **[Writing for the ear](https://zeldris.github.io/Portal-Galivelop/en/diario/escribir-para-el-oido)**: a text that reads well does not always sound well.
-- **[The last Seed](https://zeldris.github.io/Portal-Galivelop/en/diario/la-ultima-semilla)**: a short story from the Genesis of Tarkor, the game’s world.
-
-[All diary entries →](https://zeldris.github.io/Portal-Galivelop/en/diario)
-
 ## Things I code with
 
 **Day to day**
