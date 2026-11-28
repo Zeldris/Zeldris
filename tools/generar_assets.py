@@ -243,6 +243,48 @@ ICONOS = {  # nombre en assets: icono de src/assets/iconos/ del portal
 }
 
 
+# ---------------------------------------------------------------- cabeceras de sección
+
+SECCIONES = [  # slug, título, pista
+    ('what-i-do', 'What I do', 'deterministic engine · local AI'),
+    ('featured-projects', 'Featured Projects', 'Tarkor · toVeriAI · Workflow · IG'),
+    ('products', 'Products', 'Developer · Evaluator'),
+    ('coming-soon', 'Coming soon', 'Voice · Forge · Runtime · Worlds · Atlas'),
+    ('things-i-code-with', 'Things I code with', 'TypeScript · Java · Python · Rust'),
+    ('experience', 'Experience', 'full-stack since 2017'),
+    ('my-work-philosophy', 'My Work Philosophy', 'if it isn’t pushed, it doesn’t exist'),
+    ('lets-work-together', 'Let’s work together', 'join · propose · contact'),
+]
+
+
+def cabecera(t, fuentes, n, titulo, pista, movil):
+    """Tira de sección: bloque hondo con el número, título y pista de lo que hay dentro."""
+    W, H, B = (600, 96, 84) if movil else (1000, 72, 72)
+    num, tit, pis = f'{n:02d}', titulo.upper(), pista.upper()
+    css = estilo(fuentes, {'T': num + tit, 'M': pis})
+    marco = chaflan(0.5, 0.5, W - 1, H - 1, 14)
+    if movil:
+        textos = (f'<text x="{B / 2}" y="63" text-anchor="middle" class="t" font-size="42" fill="#fff">{num}</text>'
+                  f'<text x="{B + 22}" y="46" class="t" font-size="38" letter-spacing="0.5" fill="{t["tinta"]}">{tit}</text>'
+                  f'<text x="{B + 23}" y="74" class="m" font-size="16" letter-spacing="0.6" fill="{t["tinta2"]}">{pis}</text>')
+    else:
+        textos = (f'<text x="{B / 2}" y="49" text-anchor="middle" class="t" font-size="36" fill="#fff">{num}</text>'
+                  f'<text x="{B + 24}" y="49" class="t" font-size="36" letter-spacing="0.5" fill="{t["tinta"]}">{tit}</text>'
+                  f'<text x="{W - 32}" y="42" text-anchor="end" class="m" font-size="13" letter-spacing="1" fill="{t["tinta2"]}">{pis}</text>')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{titulo}">
+{css}
+<defs><clipPath id="marco"><path d="{marco}"/></clipPath></defs>
+<g clip-path="url(#marco)">
+<rect width="{W}" height="{H}" fill="{t['papel']}"/>
+{reticula(t, W - B, H, B)}
+<rect width="{B}" height="{H}" fill="{t['hondo']}"/>
+</g>
+<path d="{marco}" fill="none" stroke="{t['filete']}" stroke-width="1"/>
+{textos}
+</svg>
+'''
+
+
 def iconos(portal):
     for nombre, origen in ICONOS.items():
         svg = (portal / f'src/assets/iconos/{origen}.svg').read_text()
@@ -265,6 +307,9 @@ def main():
         (SALIDA / f'approach-{tema}.svg').write_text(diagrama(t, fuentes))
         (SALIDA / f'banner-mobile-{tema}.svg').write_text(banner_movil(t, portal, fuentes))
         (SALIDA / f'approach-mobile-{tema}.svg').write_text(diagrama_movil(t, fuentes))
+        for n, (slug, titulo, pista) in enumerate(SECCIONES, 1):
+            (SALIDA / f'section-{slug}-{tema}.svg').write_text(cabecera(t, fuentes, n, titulo, pista, False))
+            (SALIDA / f'section-{slug}-mobile-{tema}.svg').write_text(cabecera(t, fuentes, n, titulo, pista, True))
     iconos(portal)
     separador(portal)
 

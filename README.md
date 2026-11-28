@@ -26,10 +26,17 @@
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
-### What I do
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-what-i-do-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-what-i-do-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-what-i-do-dark.svg">
+  <img src="assets/section-what-i-do-light.svg" alt="What I do" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>How I build software</strong></summary>
 
 <p align="center">
   <picture>
@@ -78,10 +85,17 @@ I design and build software where the deterministic engine calculates the logic 
 
 </details>
 
-### Featured Projects
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-featured-projects-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-featured-projects-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-featured-projects-dark.svg">
+  <img src="assets/section-featured-projects-light.svg" alt="Featured Projects" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See the four projects</strong></summary>
 
 <p align="center">
   <picture>
@@ -135,10 +149,17 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 
 </details>
 
-### Products
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-products-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-products-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-products-dark.svg">
+  <img src="assets/section-products-light.svg" alt="Products" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See the two products</strong></summary>
 
 <p align="center">
   <picture>
@@ -166,10 +187,17 @@ What the workshop will offer, built on what its projects have proven.
 
 </details>
 
-### Coming soon
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-coming-soon-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-coming-soon-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-coming-soon-dark.svg">
+  <img src="assets/section-coming-soon-light.svg" alt="Coming soon" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See the five projects under way</strong></summary>
 
 <p align="center">
   <picture>
@@ -193,10 +221,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-### Things I code with
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-things-i-code-with-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-things-i-code-with-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-things-i-code-with-dark.svg">
+  <img src="assets/section-things-i-code-with-light.svg" alt="Things I code with" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See the full stack</strong></summary>
 
 <p align="center">
   <picture>
@@ -270,10 +305,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-### Experience
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-experience-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-experience-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-experience-dark.svg">
+  <img src="assets/section-experience-light.svg" alt="Experience" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See career, education and languages</strong></summary>
 
 <p align="center">
   <picture>
@@ -297,10 +339,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-### My Work Philosophy
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-my-work-philosophy-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-my-work-philosophy-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-my-work-philosophy-dark.svg">
+  <img src="assets/section-my-work-philosophy-light.svg" alt="My Work Philosophy" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See the three principles</strong></summary>
 
 <p align="center">
   <picture>
@@ -333,10 +382,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-### Let's work together
+<p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-lets-work-together-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/section-lets-work-together-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-lets-work-together-dark.svg">
+  <img src="assets/section-lets-work-together-light.svg" alt="Let's work together" width="100%">
+</picture>
+</p>
 
 <details>
-<summary>Show</summary>
+<summary><strong>See how to get in touch</strong></summary>
 
 <p align="center">
   <picture>
