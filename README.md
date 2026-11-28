@@ -24,7 +24,7 @@
 
 - 💼 Full-stack developer since 2017 and, since 2023, senior developer at Orienteed.
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
-- 🧭 See [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana) and [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) on the portal.
+- 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
 ## What I do
 
@@ -81,8 +81,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td>
       <a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/tarkor/portada-mini.webp" width="128" alt=""></a>
-      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha · milestone 0.3 “Deep kingdom”<br>
-      Narrative text RPG with a local AI as game master, on a deterministic engine: the world moves on even when you stop. 9 living factions, 9 classes with 31 specialisations, 5k+ tests, plus its own image and voice generation pipelines. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Tarkor</a></strong> · 🟡 Alpha · milestone 0.3 “Deep kingdom”: play-testing round<br>
+      <em>A narrative RPG where the world moves on even when you stop.</em> A text role-playing game with a local AI as game master: factions, wildlife and your kingdom live on their own, you write what you do, the engine resolves it with visible dice rolls and a narrator tells the story. 9 living factions, 9 classes with 31 specialisations, 53 wildlife species, 245 items and 4,200+ automated tests, with all of the AI running on your machine. Ships with a desktop installer (<code>.exe</code> / <code>.AppImage</code>) so there is no Node, Postgres or Ollama to set up by hand.<br>
       <sub>TypeScript · React · Fastify · Prisma · PostgreSQL · Ollama · Tauri v2 · Rust · SQLite</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/tarkor">Project page</a> · <a href="https://github.com/Zeldris/World-Maker-Fantasy">Game code</a> · <a href="https://github.com/Zeldris/Instalador-WMF-Tarkor">Installer code</a></sub>
     </td>
@@ -90,8 +90,8 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td>
       <a href="https://www.toveriai.com"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/toveriai/portada-mini.webp" width="128" alt=""></a>
-      <strong><a href="https://www.toveriai.com">toVeriAI</a></strong> · 🟢 Live<br>
-      AI news credibility platform. It scores news and links with the IMI index, from 0 to 100 (7 dimensions for text, 9 for URLs, based on NewsGuard), and explains what fails and where. Screenshot analysis is paused for now. 5 languages. Co-developed final-year project.<br>
+      <strong><a href="https://www.toveriai.com">toVeriAI</a></strong> · 🟢 Live · screenshot analysis paused<br>
+      <em>Truth isn’t binary.</em> An AI news credibility platform: it analyses news and links and returns the IMI, a 0–100 score (7 dimensions for text, 9 for links, based on NewsGuard) that shows what is wrong and where. 5 languages, 5 AI providers in rotation, and comfortable to use on a phone. Co-developed final-year project.<br>
       <sub>React · Spring Boot · Java · MySQL · Ollama</sub><br>
       <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/toveriai">Project page</a> · <a href="https://www.toveriai.com">toveriai.com</a></sub>
     </td>
@@ -99,53 +99,68 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
   <tr>
     <td>
       <a href="https://github.com/Zeldris/Galivelop-workflow"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-workflow/portada-mini.webp" width="128" alt=""></a>
-      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.9.0 “Front” · next: 0.10 “Stable”<br>
-      Open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, a skill/model selector, and Git hooks that keep unreviewed code out of <code>main</code>. Configurable languages, install profiles per person and per role, and interface tests with screenshots and accessibility checks. Ships 14 skills of its own plus 15 by Matt Pocock, with 3.9k+ automated tests.<br>
-      <sub>Bash · Python · Git Hooks · Agent Skills</sub><br>
-      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a></sub>
+      <strong><a href="https://github.com/Zeldris/Galivelop-workflow">Galivelop-workflow</a></strong> · 🟡 v0.9.1 · next: 0.10 “Stable”<br>
+      <em>If it isn’t pushed, it doesn’t exist: the way we work with AI, packaged for any project.</em> An open-source workflow for AI coding agents (Claude Code first, also installs for opencode and Codex): lossless hand-offs between sessions, the right skill and model picked before starting, mandatory review before publishing, and fewer tokens without losing quality. Configurable languages, install profiles per person and per role, and interface tests with screenshots and accessibility checks. 14 skills of its own plus 15 by Matt Pocock, 3,981 automated tests and 4 pilot projects.<br>
+      <sub>Bash · Python · Git Hooks · Agent Skills · AGENTS.md</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-workflow">Project page</a> · <a href="https://github.com/Zeldris/Galivelop-workflow">Code</a> · <a href="https://github.com/Zeldris/Galivelop-workflow/releases/tag/v0.9.1">v0.9.1</a></sub>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/Zeldris/galivelop-image-generator"><img align="left" src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-image-generator/portada-mini.webp" width="128" alt=""></a>
-      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.6.0 · next: brand piece<br>
-      Local AI image generator: one service per machine shared by several projects, with a persistent queue, attempts/selection/delivery, a CLI, a local HTTP API and a browser UI. Each project describes its brand as a data sheet, and the service checks every piece against it. Runs on stable-diffusion.cpp, with the Steam Deck as its reference machine. 1.5k+ automated tests.<br>
-      <sub>Python (stdlib only) · stable-diffusion.cpp · FLUX.2 · Vulkan</sub><br>
-      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator">Project page</a> · <a href="https://github.com/Zeldris/galivelop-image-generator">Code</a></sub>
-    </td>
-  </tr>
-</table>
-
-**Also in the workshop**
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Zeldris/Portal-Galivelop"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/marca/galivelop-portal-en.jpg" width="100%" alt=""></a><br>
-      <strong><a href="https://github.com/Zeldris/Portal-Galivelop">Portal-Galivelop</a></strong> · 🟢 Live<br>
-      The workshop portal itself, with every project as it really is, in Spanish, Galician and English (React, TypeScript, Vite).
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://zeldris.github.io/Portal-Galivelop/en/"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-voice-generator/proxima.webp" width="100%" alt=""></a><br>
-      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/">Galivelop Voice Generator</a></strong> · ⚪ Coming soon · 2 of 8 phases<br>
-      Voices generated with local AI for the workshop’s projects.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-developer/portada-mini.webp" width="100%" alt=""></a><br>
-      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer">Galivelop Developer</a></strong> · ⚪ Coming soon<br>
-      Aka GalivelopCode. Connects the workshop’s workflow to AI agents that run on your own computer. They carry the project’s work; you decide what goes in. No mandatory cloud and no pay-per-use.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-oscuro-mini.webp"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-mini.webp" width="100%" alt=""></picture></a><br>
-      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator">Galivelop Evaluator</a></strong> · ⚪ Coming soon<br>
-      Aka GVE. Measures whether a change to your AI system (a prompt, a model, the way it searches) really improves it, with repeatable before-and-after tests that show what got better and what got worse.
+      <strong><a href="https://github.com/Zeldris/galivelop-image-generator">Galivelop IG</a></strong> · 🟡 v0.8.0 · next: note and discard<br>
+      <em>Ask, try, choose.</em> A local AI image-generation service, one per machine and shared by every workshop project: it takes requests, generates attempts, lets you choose one and delivers it with its manifest. Nothing leaves the machine. Each project describes its brand as a data sheet; in brand mode the service builds and checks the request from it and warns if it breaks the vetoes. Runs on stable-diffusion.cpp with the Steam Deck as its reference machine. 1,951 automated tests, 8 pilot rounds, 7 projects with a brand bible, 6 of 12 phases done.<br>
+      <sub>Python · stable-diffusion.cpp · FLUX.2 · Vulkan · CLI</sub><br>
+      <sub><a href="https://zeldris.github.io/Portal-Galivelop/en/proyectos/galivelop-image-generator">Project page</a> · <a href="https://github.com/Zeldris/galivelop-image-generator">Code</a> · <a href="https://github.com/Zeldris/galivelop-image-generator/releases/tag/v0.8.0">v0.8.0</a></sub>
     </td>
   </tr>
 </table>
 
 Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
+
+## Products
+
+What the workshop will offer, built on what its projects have proven.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/proyectos/galivelop-developer/portada-mini.webp" width="100%" alt=""></a><br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-developer">Galivelop Developer</a></strong> · ⚪ Coming soon<br>
+      <em>Your workflow, with AI on your machine.</em> Aka GalivelopCode. It connects the workshop’s workflow to AI agents that run on your own computer. They carry the project’s work and you decide what goes in. No mandatory cloud and no pay-per-use.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-oscuro-mini.webp"><img src="https://raw.githubusercontent.com/Zeldris/Portal-Galivelop/main/public/productos/galivelop-evaluator/gve-evaluacion-mini.webp" width="100%" alt=""></picture></a><br>
+      <strong><a href="https://zeldris.github.io/Portal-Galivelop/en/productos/galivelop-evaluator">Galivelop Evaluator</a></strong> · ⚪ Coming soon<br>
+      <em>Measure first, improve with proof.</em> Aka GVE. You change a prompt, a model or the way it searches, and it seems to work better: it measures before and after with the same questions and shows plainly what got better and what got worse, with results you can repeat.
+    </td>
+  </tr>
+</table>
+
+## Coming soon
+
+Projects already under way that don’t have their own page yet.
+
+- **Galivelop Voice Generator** · 2 of 8 phases · next: the real voice engine<br>
+  Voices generated with local AI for the workshop’s projects. You can already [listen to the portal](https://zeldris.github.io/Portal-Galivelop/en/diario/escribir-para-el-oido) in one.
+- **Galivelop Forge** · 1 of 8 phases · next: the training data<br>
+  A data and fine-tuning factory for the workshop’s local models.
+- **Galivelop Runtime** · 4 of 7 phases · next: the shared Ollama turn<br>
+  The shared core of the local generators: queue, turns and a shared machine lock.
+- **Galivelop Worlds** · 2 of 7 phases · next: imported maps with their topology<br>
+  A kit for making living fictional worlds with local AI.
+- **Model Atlas** · 2 of 5 phases · next: the schemas and the fit<br>
+  Which model fits on which machine.
+
+## From the workshop diary
+
+- **[Rails, not just instructions](https://zeldris.github.io/Portal-Galivelop/en/diario/railes-no-solo-instrucciones)**: we work with AIs that write code. Asking them nicely is not enough: what matters is what they cannot skip.
+- **[A games console as our yardstick](https://zeldris.github.io/Portal-Galivelop/en/diario/una-consola-como-vara-de-medir)**: our reference machine for AI is not a server but a Steam Deck. If something works there, it works on almost any computer.
+- **[What the generator painted before it got there](https://zeldris.github.io/Portal-Galivelop/en/diario/lo-que-el-generador-pinto-antes-de-acertar)**: eight test rounds before trusting our image generator, and what they taught us about how to ask.
+- **[Writing for the ear](https://zeldris.github.io/Portal-Galivelop/en/diario/escribir-para-el-oido)**: a text that reads well does not always sound well.
+- **[The last Seed](https://zeldris.github.io/Portal-Galivelop/en/diario/la-ultima-semilla)**: a short story from the Genesis of Tarkor, the game’s world.
+
+[All diary entries →](https://zeldris.github.io/Portal-Galivelop/en/diario)
 
 ## Things I code with
 
@@ -173,9 +188,10 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Stable Diffusion](https://img.shields.io/badge/stable--diffusion.cpp-8A2BE2?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square)
+![OpenCode](https://img.shields.io/badge/OpenCode-1F2328?style=flat-square)
 
 <details>
-<summary><strong>Also worked with</strong> (26 more)</summary>
+<summary><strong>Also worked with</strong> (30 more)</summary>
 <br>
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
@@ -194,6 +210,10 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Magento](https://img.shields.io/badge/Magento-EE672F?style=flat-square&logo=magento&logoColor=white)
+![SoapUI](https://img.shields.io/badge/SoapUI-6BA22F?style=flat-square)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
@@ -204,6 +224,26 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Qwen](https://img.shields.io/badge/Qwen-6A5ACD?style=flat-square)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+
+</details>
+
+## Experience
+
+<details>
+<summary><strong>Career, education and languages</strong></summary>
+<br>
+
+| Role | Where | When | Clients |
+|---|---|---|---|
+| Senior full-stack software developer | Orienteed | 2023 – now | Luxottica, Ezpeleta, PLADUR, Mayoral · B2C, B2B |
+| Full-stack software developer | Orienteed | 2021 – 2023 | |
+| Full-stack web developer | Plexus Tech | 2020 – 2021 | Luckia · B2C |
+| Full-stack web developer | Servicio Móvil | 2018 – 2020 | Inditex, Sergas · B2C |
+| Full-stack web developer | Grupo ALUMAN | 2017 | B2B |
+
+**Education:** Higher Technician in Web Application Development (2017–2018) · Higher Technician in Multiplatform Application Development (2014–2016)
+
+**Languages:** Galician and Spanish (native) · English (intermediate)
 
 </details>
 
@@ -240,7 +280,7 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 
 ## Let's work together
 
-If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value.
+If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value. Independently of Galivelop, I occasionally work on other people’s projects: full-stack development with React, TypeScript, Java and Spring.
 
 Galivelop grows with the people who join it. No prior experience needed, just the will to build, learn and do it as a team:
 
