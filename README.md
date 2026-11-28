@@ -26,8 +26,17 @@
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
+## What I do
+
 <details>
-<summary><strong>What I do</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 I design and build software where the deterministic engine calculates the logic and local AI handles the experience. I focus on creating robust, private, and auditable systems, avoiding "black boxes" and cloud AI hallucinations.
 
@@ -69,15 +78,17 @@ I design and build software where the deterministic engine calculates the logic 
 
 </details>
 
+## Featured Projects
+
+<details>
+<summary>Show</summary>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
     <img src="assets/separator-light.webp" alt="" width="100%">
   </picture>
 </p>
-
-<details>
-<summary><strong>Featured Projects</strong></summary>
 
 Every project has its own page on the [Galivelop portal](https://zeldris.github.io/Portal-Galivelop/en/): what it is, how it works, gallery, tech sheet and roadmap.
 
@@ -124,8 +135,17 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 
 </details>
 
+## Products
+
 <details>
-<summary><strong>Products</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 What the workshop will offer, built on what its projects have proven.
 
@@ -146,8 +166,17 @@ What the workshop will offer, built on what its projects have proven.
 
 </details>
 
+## Coming soon
+
 <details>
-<summary><strong>Coming soon</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 Projects already under way that don’t have their own page yet.
 
@@ -164,8 +193,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
+## Things I code with
+
 <details>
-<summary><strong>Things I code with</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 **Day to day**
 
@@ -232,8 +270,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
+## Experience
+
 <details>
-<summary><strong>Experience</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 - **Senior full-stack software developer** · Orienteed · 2023 – now<br>
   Luxottica, Ezpeleta, PLADUR, Mayoral · B2C and B2B
@@ -250,8 +297,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
+## My Work Philosophy
+
 <details>
-<summary><strong>My Work Philosophy</strong></summary>
+<summary>Show</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
 
 > *"If it isn't pushed, it doesn't exist."*
 
@@ -277,15 +333,17 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
+## Let's work together
+
+<details>
+<summary>Show</summary>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
     <img src="assets/separator-light.webp" alt="" width="100%">
   </picture>
 </p>
-
-<details>
-<summary><strong>Let's work together</strong></summary>
 
 If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value. Independently of Galivelop, I occasionally work on other people’s projects: full-stack development with React, TypeScript, Java and Spring.
 
