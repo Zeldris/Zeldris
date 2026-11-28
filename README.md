@@ -26,6 +26,13 @@
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
+    <img src="assets/separator-light.webp" alt="" width="100%">
+  </picture>
+</p>
+
 <p>
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/section-what-i-do-mobile-dark.svg">
