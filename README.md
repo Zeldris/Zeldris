@@ -26,7 +26,7 @@
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
-## What I do
+### What I do
 
 <details>
 <summary>Show</summary>
@@ -78,7 +78,7 @@ I design and build software where the deterministic engine calculates the logic 
 
 </details>
 
-## Featured Projects
+### Featured Projects
 
 <details>
 <summary>Show</summary>
@@ -135,7 +135,7 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 
 </details>
 
-## Products
+### Products
 
 <details>
 <summary>Show</summary>
@@ -166,7 +166,7 @@ What the workshop will offer, built on what its projects have proven.
 
 </details>
 
-## Coming soon
+### Coming soon
 
 <details>
 <summary>Show</summary>
@@ -193,7 +193,7 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## Things I code with
+### Things I code with
 
 <details>
 <summary>Show</summary>
@@ -270,7 +270,7 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## Experience
+### Experience
 
 <details>
 <summary>Show</summary>
@@ -297,7 +297,7 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## My Work Philosophy
+### My Work Philosophy
 
 <details>
 <summary>Show</summary>
@@ -333,7 +333,7 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## Let's work together
+### Let's work together
 
 <details>
 <summary>Show</summary>
