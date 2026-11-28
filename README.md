@@ -26,7 +26,8 @@
 - 🚀 Founder of **[Galivelop](https://zeldris.github.io/Portal-Galivelop/en/)**, a software workshop where we create, research and learn by building ambitious software, in the open.
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
-## What I do
+<details>
+<summary><h2>What I do</h2></summary>
 
 I design and build software where the deterministic engine calculates the logic and local AI handles the experience. I focus on creating robust, private, and auditable systems, avoiding "black boxes" and cloud AI hallucinations.
 
@@ -66,6 +67,8 @@ I design and build software where the deterministic engine calculates the logic 
   </tr>
 </table>
 
+</details>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
@@ -73,7 +76,8 @@ I design and build software where the deterministic engine calculates the logic 
   </picture>
 </p>
 
-## Featured Projects
+<details>
+<summary><h2>Featured Projects</h2></summary>
 
 Every project has its own page on the [Galivelop portal](https://zeldris.github.io/Portal-Galivelop/en/): what it is, how it works, gallery, tech sheet and roadmap.
 
@@ -118,7 +122,10 @@ Every project has its own page on the [Galivelop portal](https://zeldris.github.
 
 Galivelop-workflow and Galivelop IG are open source, and I can set them up and support them in your project: [get in touch](mailto:alvarogarciagrana@gmail.com).
 
-## Products
+</details>
+
+<details>
+<summary><h2>Products</h2></summary>
 
 What the workshop will offer, built on what its projects have proven.
 
@@ -137,7 +144,10 @@ What the workshop will offer, built on what its projects have proven.
   </tr>
 </table>
 
-## Coming soon
+</details>
+
+<details>
+<summary><h2>Coming soon</h2></summary>
 
 Projects already under way that don’t have their own page yet.
 
@@ -152,7 +162,10 @@ Projects already under way that don’t have their own page yet.
 - **Model Atlas** · 2 of 5 phases · next: the schemas and the fit<br>
   Which model fits on which machine.
 
-## Things I code with
+</details>
+
+<details>
+<summary><h2>Things I code with</h2></summary>
 
 **Day to day**
 
@@ -217,19 +230,19 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## Experience
+</details>
 
 <details>
-<summary><strong>Career, education and languages</strong></summary>
-<br>
+<summary><h2>Experience</h2></summary>
 
-| Role | Where | When | Clients |
-|---|---|---|---|
-| Senior full-stack software developer | Orienteed | 2023 – now | Luxottica, Ezpeleta, PLADUR, Mayoral · B2C, B2B |
-| Full-stack software developer | Orienteed | 2021 – 2023 | |
-| Full-stack web developer | Plexus Tech | 2020 – 2021 | Luckia · B2C |
-| Full-stack web developer | Servicio Móvil | 2018 – 2020 | Inditex, Sergas · B2C |
-| Full-stack web developer | Grupo ALUMAN | 2017 | B2B |
+- **Senior full-stack software developer** · Orienteed · 2023 – now<br>
+  Luxottica, Ezpeleta, PLADUR, Mayoral · B2C and B2B
+- **Full-stack software developer** · Orienteed · 2021 – 2023
+- **Full-stack web developer** · Plexus Tech · 2020 – 2021<br>
+  Luckia · B2C
+- **Full-stack web developer** · Servicio Móvil · 2018 – 2020<br>
+  Inditex, Sergas · B2C
+- **Full-stack web developer** · Grupo ALUMAN · 2017 · B2B
 
 **Education:** Higher Technician in Web Application Development (2017–2018) · Higher Technician in Multiplatform Application Development (2014–2016)
 
@@ -237,7 +250,8 @@ Projects already under way that don’t have their own page yet.
 
 </details>
 
-## My Work Philosophy
+<details>
+<summary><h2>My Work Philosophy</h2></summary>
 
 > *"If it isn't pushed, it doesn't exist."*
 
@@ -261,6 +275,8 @@ Projects already under way that don’t have their own page yet.
   </tr>
 </table>
 
+</details>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.webp">
@@ -268,7 +284,8 @@ Projects already under way that don’t have their own page yet.
   </picture>
 </p>
 
-## Let's work together
+<details>
+<summary><h2>Let's work together</h2></summary>
 
 If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value. Independently of Galivelop, I occasionally work on other people’s projects: full-stack development with React, TypeScript, Java and Spring.
 
@@ -282,3 +299,5 @@ Galivelop grows with the people who join it. No prior experience needed, just th
 
 - **Development & Collaborations:** [alvarogarciagrana@gmail.com](mailto:alvarogarciagrana@gmail.com)
 - **toVeriAI Support:** [web.admin.toveriai@gmail.com](mailto:web.admin.toveriai@gmail.com)
+
+</details>
