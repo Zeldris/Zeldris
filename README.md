@@ -27,7 +27,7 @@
 - 🧭 Everything lives on the portal: [my profile](https://zeldris.github.io/Portal-Galivelop/en/equipo/alvaro-garcia-grana), [what's new](https://zeldris.github.io/Portal-Galivelop/en/novedades) and the [workshop diary](https://zeldris.github.io/Portal-Galivelop/en/diario). The portal itself is [open source too](https://github.com/Zeldris/Portal-Galivelop).
 
 <details>
-<summary><h2>What I do</h2></summary>
+<summary><strong>What I do</strong></summary>
 
 I design and build software where the deterministic engine calculates the logic and local AI handles the experience. I focus on creating robust, private, and auditable systems, avoiding "black boxes" and cloud AI hallucinations.
 
@@ -77,7 +77,7 @@ I design and build software where the deterministic engine calculates the logic 
 </p>
 
 <details>
-<summary><h2>Featured Projects</h2></summary>
+<summary><strong>Featured Projects</strong></summary>
 
 Every project has its own page on the [Galivelop portal](https://zeldris.github.io/Portal-Galivelop/en/): what it is, how it works, gallery, tech sheet and roadmap.
 
@@ -125,7 +125,7 @@ Galivelop-workflow and Galivelop IG are open source, and I can set them up and s
 </details>
 
 <details>
-<summary><h2>Products</h2></summary>
+<summary><strong>Products</strong></summary>
 
 What the workshop will offer, built on what its projects have proven.
 
@@ -147,7 +147,7 @@ What the workshop will offer, built on what its projects have proven.
 </details>
 
 <details>
-<summary><h2>Coming soon</h2></summary>
+<summary><strong>Coming soon</strong></summary>
 
 Projects already under way that don’t have their own page yet.
 
@@ -165,7 +165,7 @@ Projects already under way that don’t have their own page yet.
 </details>
 
 <details>
-<summary><h2>Things I code with</h2></summary>
+<summary><strong>Things I code with</strong></summary>
 
 **Day to day**
 
@@ -233,7 +233,7 @@ Projects already under way that don’t have their own page yet.
 </details>
 
 <details>
-<summary><h2>Experience</h2></summary>
+<summary><strong>Experience</strong></summary>
 
 - **Senior full-stack software developer** · Orienteed · 2023 – now<br>
   Luxottica, Ezpeleta, PLADUR, Mayoral · B2C and B2B
@@ -251,7 +251,7 @@ Projects already under way that don’t have their own page yet.
 </details>
 
 <details>
-<summary><h2>My Work Philosophy</h2></summary>
+<summary><strong>My Work Philosophy</strong></summary>
 
 > *"If it isn't pushed, it doesn't exist."*
 
@@ -285,7 +285,7 @@ Projects already under way that don’t have their own page yet.
 </p>
 
 <details>
-<summary><h2>Let's work together</h2></summary>
+<summary><strong>Let's work together</strong></summary>
 
 If you have a technical challenge, need to build a full-stack application, or want to explore how to apply local AI and deterministic workflows to your project, I'm always open to hearing ideas and seeing how I can add value. Independently of Galivelop, I occasionally work on other people’s projects: full-stack development with React, TypeScript, Java and Spring.
 
